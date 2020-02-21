@@ -1,0 +1,27 @@
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table td, .history-table th {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 0.5ch 2ch;
+}
+
+.history-table td:first-child, .history-table th:first-child {
+    border-left: 0;
+}
+
+.history-table tr:first-child > td, .history-table tr:first-child > th {
+    border-top: 0;
+}
+
+.history-table td:last-child, .history-table th:last-child {
+    border-right: 0;
+}
+
+.history-table tr:last-child > td {
+    border-bottom: 0;
+}

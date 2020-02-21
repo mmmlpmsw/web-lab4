@@ -1,0 +1,44 @@
+
+:root {
+    --input-text-bottom-border-color: lightgray;
+    --button-disabled-background-color: lightgray;
+    --button-disabled-text-color: gray;
+    --input-hint-opacity: 0.5;
+}
+
+body {
+    min-width: 675px;
+    margin: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button, [data-react-toolbox=input] label {
+    user-select: none;
+}
+
+.right-gap {
+    margin-right: 1ch;
+}
+
+.bottom-gap {
+    margin-bottom: 1ch;
+}
+
+.shadow-container {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.no-wrap {
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+.wrap-all {
+    word-break: break-all;
+}

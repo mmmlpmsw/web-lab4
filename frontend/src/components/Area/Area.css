@@ -1,0 +1,31 @@
+
+.area {
+    display: flex;
+}
+
+
+.area-mouse-position {
+    position: fixed;
+    pointer-events: none;
+}
+
+.area .area-mouse-position .area-mouse-position-bubble {
+    width: 77px;
+    display: flex;
+    padding: 0.5ch;
+    margin: 0 0.1ch 0.1ch 0.1ch;
+    border: 0.3ch solid black;
+    border-radius: 1ch 1ch 1ch 0.5ch;
+    background: white;
+}
+
+.area-mouse-position-cat {
+    width: 4ch;
+    height: 100%;
+    margin-right: 0.5ch;
+    background: url(./cats/choose.png) no-repeat 0 100% / contain;
+}
+
+.area-mouse-position-content {
+    margin-bottom: 1ch;
+}

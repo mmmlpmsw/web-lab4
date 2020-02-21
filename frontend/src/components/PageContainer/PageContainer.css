@@ -1,0 +1,32 @@
+
+.page-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    margin: 2ch 5px 5px;
+}
+
+.sign-out-button-container {
+    display: inline-block;
+    margin-left: 3ch;
+}
+
+@media (min-width: 809px) {
+
+    .page-content {
+        margin: 2ch 1ch 1ch;
+    }
+}
+
+@media (min-width: 1105px) {
+
+    .page-content {
+        margin: 2ch 10%;
+    }
+}

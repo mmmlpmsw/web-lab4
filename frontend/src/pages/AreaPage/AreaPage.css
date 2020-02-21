@@ -1,0 +1,47 @@
+
+.area-page-main {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.area-page-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-container {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 2ch;
+    flex-shrink: 0;
+}
+
+.history-table-container {
+    display: flex;
+    width: 100%;
+    padding: 0.5ch;
+    margin-top: 2ch;
+    justify-items: baseline;
+}
+
+@media (min-width: 809px) {
+
+    .area-page-row {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .area-container {
+        margin-right: 1ch;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1105px) {
+
+    .area-container {
+        margin-right: 2ch;
+    }
+}
